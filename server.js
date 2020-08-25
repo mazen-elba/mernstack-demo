@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mern", {
 
 // Verify that Mongoose is connected
 mongoose.connection.on("connected", () => {
-  console.log("Mongoose is connected!!!");
+  console.log("Mongoose is connected!!!!");
 });
 
 // Data Parsing
