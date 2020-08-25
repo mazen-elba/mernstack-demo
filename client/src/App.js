@@ -89,7 +89,7 @@ class App extends React.Component {
     return (
       <div className="app">
         {/* HEADER */}
-        <h2>Welcome to my Blog</h2>
+        <h2>Welcome to my First Blog</h2>
         <form onSubmit={this.submit}>
           {/* SUBMIT TITLE */}
           <div className="form-input">
