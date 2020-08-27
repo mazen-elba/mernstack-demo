@@ -9,8 +9,6 @@ const PORT = process.env.PORT || 8080; // Deployment Step 1
 
 const routes = require("./routes/api");
 
-// mongodb+srv://WheatRidge-18:WheatRidge-18@firstcluster.en8nc.mongodb.net/<dbname>?retryWrites=true&w=majority
-
 // Deployment Step 2: Connet to MongoDB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/mern", {
   useNewUrlParser: true,
